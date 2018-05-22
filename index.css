@@ -1,0 +1,21 @@
+ul {
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: DodgerBlue;
+}
+
+.présentation {
+  background-color: DodgerBlue;
+  color: white;
+}
+
+h1, h3 {
+  color: white;
+}
+
+.image {
+  background-color: grey;
+}
