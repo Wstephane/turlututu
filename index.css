@@ -1,6 +1,22 @@
+body {
+  margin: 0;
+}
+
 nav {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  
+}
+
+.gauche {
+  justify-content: left;
+}
+
+.droite {
+  text-align: right;
 }
 
 header {
