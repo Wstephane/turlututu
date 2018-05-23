@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 5px;
+  width: 100%;
 }
 
 nav {
@@ -8,7 +9,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  
+  height: 50px;
 }
 
 .gauche {
@@ -23,15 +24,47 @@ header {
   background-color: DodgerBlue;
 }
 
-.présentation {
+.presentation {
   background-color: DodgerBlue;
   color: white;
 }
 
-h1, h3 {
+.presentation h2 {
+  font-size: 150%;
+}
+
+h1 {
   color: white;
 }
 
+h2 {
+  text-align: center;
+}
+
+.innovation {
+  text-align: center;
+}
+
 .image {
-  background-color: grey;
+  background-color: LightGray;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bouton {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.bouton div {
+  background-color: blue;
+}
+
+footer {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
 }
