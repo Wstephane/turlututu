@@ -46,6 +46,12 @@ header {
   max-width: 1000px;
 }
 
+.spitch  {
+  text-align: center;
+  font-size: 150%;
+  font-weight: 500;
+}
+
 .presentation {
   background-color: DodgerBlue;
   color: white;
@@ -58,7 +64,8 @@ header {
   grid-template-rows: auto auto;
   grid-column: auto;
   grid-row-gap: 0;
-  margin: 5% 10%;
+  margin: 0 10%;
+  padding: 30px 0;
 }
 
 .presentation h2 {
@@ -69,18 +76,12 @@ h1 {
   color: white;
 }
 
-h2 {
-  text-align: center;
-}
-
-.innovation {
-  text-align: center;
-}
-
 .image {
   background-color: LightGray;
   height: 300px;
   display: flex;
+  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
