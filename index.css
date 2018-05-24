@@ -36,10 +36,10 @@ header {
 
 .intro {
   background: url(https://st2.depositphotos.com/3896919/12043/v/950/depositphotos_120435478-stock-illustration-happy-pig-big-head-cartoon.jpg);
-  background-size: 200px;
+  background-size: 225px;
   background-repeat: no-repeat;
   background-position: left;
-  padding: 100px 0;
+  padding: 120px 0;
   text-align: center;
   margin: 0 auto;
   width: 80%;
@@ -78,21 +78,42 @@ h1 {
 
 .image {
   background-color: LightGray;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.bouton {
-  height: 300px;
+  height: 180px;
   display: flex;
   justify-content: center;
 }
 
-.bouton div {
+.image div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.bouton {
+  height: 200px;
+  text-align: center;
+  color: white;
+}
+
+.bleu, .orange {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  width: 120px;
+}
+
+.bleu {
+  display: inline-block;
   background-color: blue;
+}
+
+.orange {
+  display: inline-block;
+  background-color: orange;
 }
 
 footer {
