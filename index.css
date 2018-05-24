@@ -46,17 +46,23 @@ header {
   max-width: 1000px;
 }
 
-header#intro-container {
-
-}
-
 .presentation {
   background-color: DodgerBlue;
   color: white;
+  height: 15%;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-column: auto;
+  grid-row-gap: 0;
+  margin: 5% 10%;
 }
 
 .presentation h2 {
-  font-size: 150%;
+  text-align: left;
 }
 
 h1 {
