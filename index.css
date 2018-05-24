@@ -97,6 +97,7 @@ h1 {
 
 .bleu, .orange {
   display: inline-block;
+  border-radius: 10px;
   margin-top: 50px;
   margin-left: 2px;
   margin-right: 2px;
@@ -119,10 +120,14 @@ h1 {
 footer {
   background-color: black;
   height: 60px;
-  display: flex;
-  justify-content: flex-start;
 }
 
-footer a {
+.wrapper3 {
+  display: flex;
+  max-width: 1000px;
+}
+
+footer a, p {
+  color: white;
   text-decoration: none;
 }
