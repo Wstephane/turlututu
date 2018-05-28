@@ -46,6 +46,10 @@ header {
   max-width: 1000px;
 }
 
+.bouton-start {
+  width: 200px;
+}
+
 .spitch  {
   text-align: center;
   font-size: 150%;
@@ -117,17 +121,27 @@ h1 {
   background-color: orange;
 }
 
+.bouton-start {
+  color: white;
+}
+
 footer {
+  display: flex;
   background-color: black;
   height: 60px;
+  line-height: 40px;
 }
 
-.wrapper3 {
-  display: flex;
-  max-width: 1000px;
-}
-
-footer a, p {
+footer a, span {
   color: white;
   text-decoration: none;
+}
+
+.right-a {
+  flex: 2;
+  text-align: center;
+}
+
+.left-a {
+  flex: 8;
 }
